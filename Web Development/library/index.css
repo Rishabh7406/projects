@@ -1,0 +1,14 @@
+form button.subbtn {
+  color: white;
+  border: white;
+}
+
+form button.subbtn:hover {
+  color: black;
+  background-color: white;
+
+}
+
+nav>div>a {
+  font: white;
+}
