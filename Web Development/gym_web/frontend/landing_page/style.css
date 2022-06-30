@@ -1,0 +1,157 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* UTILITY CLASSeS */
+
+/* HEADER */
+.left {
+  margin: 0rem 0rem 0rem 0rem;
+  padding: 2rem 2rem 2rem 3rem;
+}
+
+.left img {
+  margin: 0rem 0rem 0rem 0rem;
+  padding: 0rem 0rem 0rem 0rem;
+  width: 3rem;
+  height: 2rem;
+}
+
+#mid {
+  margin: 0rem 0rem 0rem 2rem;
+  padding: 0rem 0rem 0rem 0rem;
+}
+
+.right {
+  position: absolute;
+  top: 0rem;
+  right: 0rem;
+
+  margin: 0rem 0rem 0rem 0rem;
+  padding: 0rem 0rem 0rem 0rem;
+}
+
+.navbar #mid li {
+  list-style: none;
+  margin: 0rem 1rem 0rem 1rem;
+  padding: 2rem 2rem 1rem 1rem;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar #right ul {
+  display: flex;
+}
+
+.navbar #mid li a {
+  font-size: large;
+  font-family: "Bree Serif", serif;
+  text-decoration: none;
+  margin: 0rem 0rem 0rem 0rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+
+  color: white;
+}
+
+.navbar #mid li a:hover {
+  color: black;
+  background: white;
+  border-radius: 12px;
+}
+
+.navbar #right li {
+  list-style: none;
+  margin: 2rem 1rem 0rem 0rem;
+  padding: 0rem 2rem 0rem 0rem;
+}
+
+.navbar #right li a {
+  font-family: "Baloo Bhai 2", cursive;
+  font-size: large;
+  color: white;
+  text-decoration: none;
+  margin: 0rem 0rem 0rem 0rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.navbar #right li a:hover {
+  color: black;
+  background: white;
+  border-radius: 12px;
+}
+
+/* SECTION 1 */
+.sec1 .div1 {
+  margin: 2rem 0rem 0rem 1rem;
+  padding: 0rem 0rem 0rem 0rem;
+}
+
+.qoute1 {
+  font-family: "League Gothic", sans-serif;
+  font-size: 6rem;
+  margin: 0rem 0rem 0rem 0rem;
+  padding: 0rem 0rem 0rem 0rem;
+  font-family: "League Gothic", sans-serif;
+}
+
+.qoute2 {
+  font-family: "League Gothic", sans-serif;
+  font-size: 6rem;
+  margin: 1rem 0rem 0rem 3rem;
+  padding: 0rem 0rem 0rem 0rem;
+  font-family: "League Gothic", sans-serif;
+}
+
+.qoute3 {
+  font-family: "League Gothic", sans-serif;
+  font-size: 2rem;
+  margin: 1rem 0rem 0rem 29rem;
+  padding: 0rem 0rem 0rem 0rem;
+  font-family: "League Gothic", sans-serif;
+}
+
+/* background image */
+body {
+  background-color: black;
+  color: white;
+background-image: url("../IMAGES/GYM_WEBSITE/MAIN_PAGE/pexels-binyamin-mellish-116077.jpg");
+}
+
+body>img {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+/* sec2 */
+.div2 {
+  margin: 6rem 0rem 0rem 40rem;
+  padding: 0rem 0rem 0rem 0rem;
+}
+
+.sec2 .div2 a {
+  color: black;
+  background-color: white;
+  border-radius: 42px;
+  padding: 1rem 1rem 1rem 1rem;
+  text-decoration: none;
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+.sec2 .div2 a:hover {
+  color: white;
+  background-color: black;
+}
+
+/* nav bar */
+.headerdiv {
+  display: flex;
+}

@@ -1,0 +1,96 @@
+body {
+  background-image: url("/github_ke_liye/Web Development/gym_web/IMAGES/GYM_WEBSITE/gym2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.left {
+  display: inline-block;
+  position: absolute;
+  left: 27px;
+  top: 21px;
+}
+
+.mid {
+  display: block;
+  width: 50%;
+  margin: 21px auto;
+}
+
+.navbar {
+  font-family: "Baloo Bhai", cursive;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 27px;
+  margin: 0px 12px;
+}
+
+.right {
+  position: absolute;
+  right: 27px;
+  top: 21px;
+  /* border: 2px solid red; */
+  display: inline-block;
+}
+
+.btn {
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-size: 23px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Baloo Bhai", cursive;
+}
+
+.navbtn {
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Baloo Bhai", cursive;
+}
+
+.btn:hover {
+  background-color: grey;
+}
+
+.navbtn:hover {
+  background-color: grey;
+}
+
+.form_container {
+  border: 5px solid white;
+  border-radius: 44px;
+  width: 33%;
+  margin: 142px auto;
+  padding: 103px 125px;
+  font-family: "Baloo Bhai", cursive;
+  text-align: center;
+  font-size: 25px;
+}
+
+.form_container input {
+  font-family: "Baloo Bhai", cursive;
+  text-align: center;
+  display: block;
+  width: 508px;
+  padding: 1px;
+  border: 2px solid black;
+  margin: 11px auto;
+  font-size: 25px;
+  border-radius: 8px;
+}
+
+.submitbtn {
+  background-color: black;
+  color: white;
+  outline: 2px solid gray;
+  cursor: pointer;
+  font-weight: bold;
+}
